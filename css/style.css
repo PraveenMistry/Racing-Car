@@ -38,6 +38,32 @@ body {
     border-radius: 5px;
     box-shadow: 0px 1px 8px 0px black;
 }
+.reverse_car{
+   position: absolute;
+    height: 60px;
+    width: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 8px 0px black; 
+}
+
+.reverse_car .f_light_cross_l{
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    margin-left: 70%;
+    bottom: -6%;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #efefef;
+}
+.reverse_car .f_light_cross_r{
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    /*margin-left: 70%;*/
+    bottom: -6%;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #efefef;
+}
 #car{
     bottom: 8%;
     left: 60%;
@@ -118,17 +144,17 @@ body {
 #car_1{
     top: -100px;   
     left: 60%;
-    background-color: #26c5ff;
+    background-color: #26c52f;
 }
 #car_2{
     top: -200px;   
     left: 40%;
-    background-color: #26c5ff;
+    background-color: #b72424fa;
 }
 #car_3{
     top: -350px;   
     left: 50%;
-    background-color: #26c5ff;
+    background-color: #ffffffd9;
 }
 #restart_div {
     position: absolute;
@@ -162,4 +188,28 @@ body {
     color: #454545;
     padding: 10px;
     box-shadow: 4px 4px 0px 1px #808080;
+}
+#speed_div{
+     position: absolute;
+    margin-top: 25%;
+    margin-left: 10%;
+    font-size: 35px;
+    background-color: white;
+    color: #454545;
+    padding: 10px;
+    box-shadow: 4px 4px 0px 1px #808080;
+}
+.stone{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 40%;
+    width: 50px;
+    height:50px;
+    display: none;
+}
+#car_4{
+    top: -100px;   
+    left: 75%;
+    background-color: #ff0000;
+    display: none;
 }
